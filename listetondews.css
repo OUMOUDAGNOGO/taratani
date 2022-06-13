@@ -1,0 +1,124 @@
+  body{
+    /* background-image:url(/assets/images/tontine.png); */
+    background-image: url('../images/tontine.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}  
+   /* table{ 
+   border-collapse: collapse;
+    margin-left: 100px; 
+     width: 100px;
+    height: 200px; 
+    text-align: center; 
+    background-color: rgb(253, 214, 214); 
+
+ }     */
+th, td {
+    border: 1px solid black;
+}
+#fafa{
+    color:#2435CA ;
+}
+#btn{
+    color: red;
+    text-align: center;
+}
+ #brt{
+    color: red;
+    text-align: center; 
+}
+#mgs{
+    color: red;
+    text-align: center; 
+}
+#blue{
+    color: red;
+    text-align: center;
+}
+#rue{
+    color: red;
+    text-align: center; 
+}  
+th{
+    background-color: rgb(127, 15, 15);
+    height: 40px;
+    color: white;
+}
+td{
+    height: 20px;
+}
+h2{
+    color: #2435CA;
+}
+/* style mode passe oublier  */
+h2{
+    color: #2435CA;
+}
+input{
+    width: 520px;
+    height: 50px;
+    background-color: rgb(240, 233, 233);
+    border-radius: 5px;
+    margin-left: 410px;
+} 
+button{
+    margin-left: 600px;
+    /* width: 90px;
+    height: 30px;
+     */
+ }
+ .btn{
+     padding: 5px 10px 5px 10px;
+ }
+ /* style pour cotisations */
+ /* body{
+     background-image:url(/assets/images/tontine.png); 
+    background-image: url('/assets/images/tontine.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}   */
+/* table{
+   border-collapse: collapse;
+   margin-left: 200px;
+   width: 900px;
+   height: 290px;
+   text-align: center;
+   background-color: rgb(253, 214, 214);
+
+} */
+th, td {
+    border: 1px solid black;
+}
+#modi1{
+    color:#2435CA ;
+}
+#modi2{
+    color:#2435CA ;
+}
+#modi3{
+    color:#2435CA ;
+}
+#modi4{
+    color:#2435CA ;
+}
+#modi5{
+    color:#2435CA ;
+}
+#red{
+    color: red;
+}
+th{
+    background-color: rgb(127, 15, 15);
+    height: 40px;
+    color: white;
+}
+td{
+    height: 20px;
+}
+h2{
+    color: #2435CA;
+}
+
+

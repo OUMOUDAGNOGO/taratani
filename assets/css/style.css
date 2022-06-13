@@ -1,0 +1,148 @@
+body{
+    background-image: url("/assets/image/tontine.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*header appliquer a tout les pages  */
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+}
+.logo{
+    width: 100px;
+    margin-top: 30px;
+}
+/* fin de header appliquer a tout les pages */
+
+/* creer reunion */
+.container{ 
+     width: 900px;  
+     margin-top: 100px; 
+     position: relative; 
+     left: 150px; 
+
+} 
+.img{ 
+    width: 100px;
+ } 
+/* fin reunion*/
+
+.propos{
+    text-align: center;
+}
+
+/* page modifier infos */
+.table{
+    width: 900px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.btn{
+    margin-top: 100px;
+    margin-right: 100px;
+    position: relative;
+    left: 500px;
+    padding: 15px;
+
+}
+/* fin page modifier infos */
+
+/* page etat */
+
+.super{
+    position: relative;
+}
+.bouton{
+    padding: 10px;
+    margin-top: 20px;
+}
+/* fin page etat */
+/* debut page zoom */
+.zoom img{
+    width: 100px;
+    margin-left: 270px;
+    margin-top: 10px;
+}
+.logod{ 
+     float: right; 
+     color: blue; 
+     margin-right: 30px;
+     margin-top: 20px; 
+} 
+.imag{
+    width: 200px;
+}
+/* fin page zoom */
+/* renitialiser mot de pass */
+input{
+    height: 50px;
+    width: 700px;
+    background-color: #fff;
+    border: 1px solid #5A1D2C;
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+::placeholder{
+    color: blue;
+    margin-left: 100px;
+}
+
+
+.menu{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.nouveau{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.confirmer{
+    margin-top: 20px;
+
+}
+
+.botn{
+    border-radius: 5px;
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    background-color: #5A1D2C;
+    border-color: white;
+    color: #fff;
+    margin-left: 450px;
+}
+
+#btn{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+h6{
+    margin-left: 300px;
+    margin-top: 50px;
+    color: blue;
+}
+/* fin renitialiser mot de pass */
+
+/* debut modpasoubie */
+.botne{
+    
+    margin-right: 5%;
+    border-radius: 5px;
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    background-color: #5A1D2C;
+    border-color: white;
+    color: #fff;
+}
+/* fin modpasoublie */

@@ -1,0 +1,44 @@
+body{
+  width: 900px;
+  height: 400px;
+ margin: 360px;
+ margin-top: 0px;
+ background-image: url('/assets/images/tontine.png');
+ background-repeat: no-repeat; 
+ background-size: cover;
+ 
+}
+ul a{
+   text-decoration: none;
+   color: white;
+   /* margin-right: 11px; */
+   }
+   ul li{
+   display: inline-block;
+   padding: 20px;
+   
+   }
+   .navbar{
+      margin-left: 40px;
+      margin-bottom: 300px;
+      margin-top: -40px;
+      background-color: blue;
+      padding: 0px;border-radius: 5px;
+      
+      
+   }
+   .foot a{
+    padding: 40px;
+      margin-bottom:30px;
+      
+   }
+   #logo{
+      margin-right: 500px;
+   } 
+   
+   
+
+
+
+
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/css/styleprogramer.css">
+    <title>Prgrammation reunion</title>
+</head>
+<body>
+      <div class="heade">
+        <a href="#" class="logo"><img src="/assets/images/logo.png" width="100px;" height="100px;"></a>
+        <h2 style="text-align: center;">PLANIFIER  UNE REUNION</h2>
+        <img id="image"  src="/assets/images/icone_deconnex.jpg" width="100px"; height="100pwx;"  alt="img">
+        <p>Déconexion</p>
+    </div>
+    <div class="container">
+        <div>
+          <label for=""><strong>Sujet</strong></label><br>
+          <input id="sujet" type="text" placeholder="Reunion zoom de Taratanin" ><br><br>
+          <label for=""><strong>Date</strong></label><br>
+          <input type="date">
+          <input type="time">
+                  à
+          <input type="date">
+          <input type="time"><br><br>
+        </div>
+        <hr>
+        <div>  
+          <label for=""><strong>ID reunion</strong></label><br> 
+          <input type="radio" id="creer" name="interest" value="creer">
+          <label for="creer">creé automatiquement</label>
+
+          <input type="radio" id="personnel" name="numeroperso" value="personnel">
+          <label for="creer">N° personnel pour la reunion</label>
+        </div>
+        <hr>
+        <div>  
+          <label for=""><strong>Mot de passe</strong></label><br> 
+          <input type="radio" id="motdepasse" name="mot" value="motdepasse">
+          <label for="creer">Exiger le mot de passe de la reunion</label>
+          <input id="mot" type="number">
+        </div>
+        <hr>
+        <div>
+            <h5><strong>Video</strong></h5>
+          <label for="">Animateur</label> 
+          <input type="radio" id="active" name="video" value="active">
+          <label for="creer">activé</label>
+
+          <input type="radio" id="desactive" name="video" value="desactive">
+          <label for="creer">desactivé</label><br>
+          <label for="">Participants</label> 
+
+          <input type="radio" id="active" name="video" value="active">
+          <label for="creer">activé</label>
+          <input type="radio" id="desactive" name="video" value="desactive">
+          <label for="creer">desactivé</label>
+        </div>
+        <hr>
+        <div>  
+          <label for=""><strong>Audio</strong></label><br> 
+        <input type="radio" id="audio" name="audiophonetordi" value="audio">
+        <label for="creer">Télephone</label>
+        <input type="radio" id="audio" name="audiophonetordi" value="audio">
+        <label for="creer">Audio de l'ordinateur</label>
+        <input type="radio" id="audio" name="audiophonetordi" value="audio">
+        <label for="creer">Télephone et Audio de l'ordinateur</label>
+        </div>
+        <hr>
+        <a href="pagepariba.html"><button class="btn4" style="background-color:white;">Annuler</button></a>
+        <a href="créerreunion.html"><button class="btn2" style="background-color:#1834f0;">Programmer</button></a>
+        <footer>
+          <div>
+            <img src="/assets/images/zoom-fondo-azul-vertical-logo-8246E36E95-seeklogo.com.png" width="100px;" alt="m">
+          </div>
+        </footer>
+    </div>
+</body>
+</html>
